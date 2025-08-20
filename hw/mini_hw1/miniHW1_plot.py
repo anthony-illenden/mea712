@@ -41,7 +41,8 @@ plt.tight_layout()
 # label the plot appropriately
 plt.xlabel('x-distance (m)')
 plt.ylabel('$\psi$ (unitless)')
-plt.title(r'MiniHW1')
+plt.title(r'Illenden - MiniHW1')
 
 # finish up
 plt.show()
+plt.savefig('miniHW1_output_plot.png')
