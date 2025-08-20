@@ -44,5 +44,5 @@ plt.ylabel('$\psi$ (unitless)')
 plt.title(r'Illenden - MiniHW1')
 
 # finish up
-plt.show()
 plt.savefig('miniHW1_output_plot.png')
+plt.show()
