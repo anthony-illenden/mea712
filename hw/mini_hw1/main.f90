@@ -20,12 +20,10 @@ write(10, *) '# ', nx, dx
 do i = 1, nx
     x(i) = real(i - 1) * dx
     psi(i) = cos((2 * pi(i) * x(i)) / real(1000))
-    
     print*, "x= ", x(i), 'psi= ', psi(i)
-
-
 end do
 
+! Additional write statements
 write(fmt,'(a,i4,a)') '(',nx,'(e10.4,1x))'
 write(10,fmt) (psi(i),i=1,nx)
 
