@@ -13,3 +13,6 @@ real, parameter :: c = 10.0
 ! Define indecies
 integer :: i
 integer :: n
+
+stop
+end
